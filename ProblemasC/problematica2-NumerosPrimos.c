@@ -22,33 +22,33 @@ int main()
 {
 	int numero;
 	
-	printf("Programa para verificar si un número es primo.\n");
-	printf("Introduce números enteros positivos. Ingresa 0 para salir.\n");
+	printf("Programa para verificar si un nÃºmero es primo.\n");
+	printf("Introduce nÃºmeros enteros positivos. Ingresa 0 para salir.\n");
 	
 	while (1)
 	{
-		printf("Ingresa un número: ");
+		printf("Ingresa un nÃºmero: ");
 		scanf("%d", &numero);
 		
 		if (numero == 0)
 		{
-			printf("Gracias por usar el programa. ¡Hasta luego!\n");
+			printf("Gracias por usar el programa. Â¡Hasta luego!\n");
 			break; 
 		}
 		
 		if (numero < 0)
 		{
-			printf("Por favor, ingresa un número entero positivo.\n");
+			printf("Por favor, ingresa un nÃºmero entero positivo.\n");
 		} 
 		
 		else if (esPrimo(numero))
 		{
-			printf("El número %d es primo.\n", numero);
+			printf("El nÃºmero %d es primo.\n", numero);
 		}
 		
 		else 
 		{
-			printf("El número %d no es primo.\n", numero);
+			printf("El nÃºmero %d no es primo.\n", numero);
 		}
 	}
 	
