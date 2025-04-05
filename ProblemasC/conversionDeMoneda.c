@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*El usuario elige la conversi髇:
-D髄ares a Euros
-D髄ares a Pesos
-Euros a D髄ares
+/*El usuario elige la conversi贸n:
+D贸lares a Euros
+D贸lares a Pesos
+Euros a D贸lares
 */
 int main() {
 	
