@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*Realice un programa que sume en base siete 
-dos números de una cifras ingresadas por el usuario. */
+dos nÃºmeros de una cifras ingresadas por el usuario. */
 
 int main() {
 	
